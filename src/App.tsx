@@ -57,7 +57,7 @@ const App = () => {
 				type="text"
 				value={username}
 				placeholder="username"
-				onChange={changeUsername}
+				onChange={(e) => changeUsername(e)}
 			/>
 			<input
 				type="password"
